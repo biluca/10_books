@@ -34,9 +34,9 @@ class HomeViewState extends State<HomeView> {
     return Scaffold(
         body: ListView.builder(
       padding: const EdgeInsets.all(4),
-      itemCount: prioritezed_books.length,
+      itemCount: prioritezedBooks.length,
       itemBuilder: (BuildContext context, int index) {
-        return _buildRow(prioritezed_books[index]);
+        return _buildRow(prioritezedBooks[index]);
       },
     ));
   }

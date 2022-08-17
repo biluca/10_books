@@ -30,13 +30,13 @@ class _MainPageState extends State<MainPage> {
     });
   }
 
-  Widget _build_body() {
+  Widget _buildBody() {
     return Center(
       child: bottomNavigationBarOptions.elementAt(_selectedIndex),
     );
   }
 
-  Widget _build_bottom_navigation_bar() {
+  Widget _buildBottomNavigationBar() {
     return BottomNavigationBar(
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
@@ -71,7 +71,7 @@ class _MainPageState extends State<MainPage> {
             ),
           ],
         ),
-        body: _build_body(),
-        bottomNavigationBar: _build_bottom_navigation_bar());
+        body: _buildBody(),
+        bottomNavigationBar: _buildBottomNavigationBar());
   }
 }

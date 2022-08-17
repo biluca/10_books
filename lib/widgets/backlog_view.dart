@@ -34,9 +34,9 @@ class BacklogViewState extends State<BacklogView> {
     return Scaffold(
       body: ListView.builder(
         padding: const EdgeInsets.all(4),
-        itemCount: backlog_books.length,
+        itemCount: backlogBooks.length,
         itemBuilder: (BuildContext context, int index) {
-          return _buildRow(backlog_books[index]);
+          return _buildRow(backlogBooks[index]);
         },
       ),
       bottomNavigationBar: BottomAppBar(

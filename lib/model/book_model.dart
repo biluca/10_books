@@ -10,7 +10,7 @@ class Book {
   });
 }
 
-final List<Book> prioritezed_books = [
+final List<Book> prioritezedBooks = [
   Book(priority: 0, name: "This is how it ends", author: "Colleen Hoover"),
   Book(priority: 1, name: "The Girl from the Lake", author: "Charlie Donlea"),
   Book(priority: 2, name: "Imperfect", author: "Christina Lauren"),
@@ -23,7 +23,7 @@ final List<Book> prioritezed_books = [
   Book(priority: 9, name: "November", author: "Colleen Hoover"),
 ];
 
-final List<Book> backlog_books = [
+final List<Book> backlogBooks = [
   Book(priority: 100, name: "The Disturbed Mind", author: "Harvey Specter"),
   Book(priority: 101, name: "Danger!", author: "Tim Warnes"),
   Book(priority: 102, name: "Lord of the Flies", author: "William Golding"),
